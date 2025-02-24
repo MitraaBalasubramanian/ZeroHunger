@@ -1,0 +1,17 @@
+{
+  "version": 8,
+  "sources": {
+    "raster-tiles": {
+      "type": "raster",
+      "tiles": ["https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWl0cmFhIiwiYSI6ImNtNzRyd2ZpeTBkbnQyaXF5MW5lN2V5c24ifQ.tGjnKGB8IoMH-ziaa9rGQg"],
+      "tileSize": 256
+    }
+  },
+  "layers": [{
+    "id": "simple-tiles",
+    "type": "raster",
+    "source": "raster-tiles",
+    "minzoom": 0,
+    "maxzoom": 22
+  }]
+}

@@ -1,0 +1,31 @@
+name: zerohunger
+description: A food waste reduction app.
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^8.0.0
+  mapbox_gl: ^0.16.0
+  geolocator: ^10.1.0
+  provider: ^6.0.5
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.12.1
+  firebase_messaging: ^14.7.10
+  cloud_firestore: ^4.9.3
+  flutter_local_notifications: ^15.0.0
+  image_picker: ^1.0.4
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.2.1
+  lucide_icons: ^0.256.0
+  latlong2: ^0.9.1
+  
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/map_style.json  
+    - assets/icons/  
