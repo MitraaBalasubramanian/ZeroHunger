@@ -9,7 +9,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.zerohunger.app" // Use your actual package name
+        applicationId = "com.zerohunger.appr" // Use your actual package name
         minSdk = 21
         targetSdk = 34
         versionCode = 1

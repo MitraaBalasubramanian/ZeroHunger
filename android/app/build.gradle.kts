@@ -1,5 +1,5 @@
 plugins {
-    id("com.android.application")
+    id("com.zerohunger.app")
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services") // Ensure this line is present
 }
